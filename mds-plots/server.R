@@ -4,12 +4,9 @@ server <- function(input, output) {
   removeModal()
   checkGnomad <- eventReactive(input$makePlot, {input$gnomad_AF})
   checkSub12 <- eventReactive(input$makePlot, {input$sub_group12})
-#  checkSub34 <- eventReactive(input$makePlot, {input$sub_group34})
   checkSub56 <- eventReactive(input$makePlot, {input$sub_group56})  
   checkZoom12 <- eventReactive(input$makePlot, {input$zoom_scale12})
-#  checkZoom34 <- eventReactive(input$makePlot, {input$zoom_scale34})
   checkFilter12 <- eventReactive(input$makePlot, {input$filter_group12})
-#  checkfilter34 <- eventReactive(input$makePlot, {input$filter_group34})
   checkfilter56 <- eventReactive(input$makePlot, {input$filter_group56})
                              
 data_octopus_mds_new_tmp3<- reactive({
