@@ -2,7 +2,7 @@ Shiny App for somatic variant optimization
 =======================
 
 This is the Dockerized Plot Shiny App.
-![WGS_WORKFLOW](https://github.com/tzhang-nmdp/Rshiny-somatic-variant-optimization/blob/master/Somatic_variant_optimalization.png)
+![WGS_WORKFLOW](https://github.com/tzhang-nmdp/Rshiny-somatic-variant-optimization/blob/master/Somatic_variant_optimalization2.png)
 
 ## Usage:
 
