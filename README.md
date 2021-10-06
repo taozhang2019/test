@@ -1,7 +1,7 @@
-MDS Plot Shiny App
+Shiny App for somatic variant optimization
 =======================
 
-This is the Dockerized MDS Plot Shiny App.
+This is the Dockerized Plot Shiny App.
 
 ## Usage:
 
