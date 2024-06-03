@@ -1,6 +1,7 @@
 # Define server logic required to draw a histogram ----
 server <- function(input, output) {
   data(MDSdata)
+  load("data/MDSdata.RData")
   removeModal()
   checkGnomad <- eventReactive(input$makePlot, {input$gnomad_AF})
   checkSub12 <- eventReactive(input$makePlot, {input$sub_group12})
